@@ -1,9 +1,10 @@
 ---
     name: learn-github-action
     on:
-      - push
-    paths: 
-      - "src/**"
+      push:
+        branches: [ "main" ]
+      paths: 
+        - "src/**"
     jobs:
       check-bats-version:
         runs-on: ubuntu-latest
