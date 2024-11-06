@@ -2,6 +2,8 @@
     name: learn-github-action
     on:
       - push
+    paths: 
+      - "src/**"
     jobs:
       check-bats-version:
         runs-on: ubuntu-latest
