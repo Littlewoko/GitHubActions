@@ -4,7 +4,7 @@
       push:
         branches: [ "main" ]
       paths: 
-        - "src/**"
+        - 'src/**'
     jobs:
       check-bats-version:
         runs-on: ubuntu-latest
